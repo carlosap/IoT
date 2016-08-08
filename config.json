@@ -1,0 +1,9 @@
+{
+  "name": "PMDSensorAPI",
+  "version": "1.0.0",
+  "author": "PMT",
+  "license": "ISC",
+  "ENS210_url": "http://pmtwebapi.azurewebsites.net/api/ENS210?",
+  "IAQCORE_url": "http://pmtwebapi.azurewebsites.net/api/IAQCORE?",
+  "serial": "TESTBETA123"
+}

@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="webclientsensor/Program.cs">
+    <Files>
+      <File FileName="webclientsensor/config.json" Line="7" Column="15" />
+      <File FileName="webclientsensor/Config.cs" Line="12" Column="28" />
+      <File FileName="webclientsensor/Program.cs" Line="32" Column="31" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
