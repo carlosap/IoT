@@ -1,0 +1,20 @@
+Create a Mount Point
+sudo mkdir /media/usb
+
+set folder owner
+sudo chown -R pi:pi /media/usb
+
+
+Manually Mount The Drive
+sudo mount /dev/sda1 /media/usb -o uid=pi,gid=pi
+
+
+Un-mounting The Drive
+umount /media/usb
+
+
+autostart:
+sudo vi /home/pi/.config/lxsession/LXDE-pi/autostart
+
+At the end of line add:
+./launcher.sh

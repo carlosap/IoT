@@ -1,9 +1,9 @@
 // *********************************************************************************************************
 // *                                   Included Libraries                                                  *
 // ********************************************************************************************************* 
-#include <Wire.h>                                 //Include the Wire library
-#include <LiquidCrystal.h>                        //Include the LCD library
-LiquidCrystal lcd(12, 11, 5, 4, 3, 2);  // initialize the library with the numbers of the interface pins
+#include <Wire.h>                           //Include the Wire library
+#include <LiquidCrystal.h>                  //Include the LCD library
+LiquidCrystal lcd(14, 16, 4, 5, 6, 7);      // initialize the library with the numbers of the interface pins
 // *********************************************************************************************************
 // *                                         Defines                                                       *
 // ********************************************************************************************************* 
