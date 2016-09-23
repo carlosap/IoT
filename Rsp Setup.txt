@@ -4,7 +4,14 @@ sudo apt-get install mono-complete
 sudo apt-get install monodevelop
 sudo apt-get install arduino
 sudo apt-get install python-serial
+*****************************************
+usb mount
 
+ls -l /dev/disk/by-uuid/
+sudo mkdir /media/usb
+sudo chown -R pi:pi /media/usb
+sudo mount /dev/sda1 /media/usb -o uid=pi,gid=pi
+sudo mount /dev/sdb1 /media/usb -o uid=pi,gid=pi
 
 /****************************************
 mkdir /code
