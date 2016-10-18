@@ -14,9 +14,19 @@ sudo mount /dev/sda1 /media/usb -o uid=pi,gid=pi
 sudo mount /dev/sdb1 /media/usb -o uid=pi,gid=pi
 
 /****************************************
-mkdir /code
-chmod 777 /code
+sudo mkdir /code
+sudo chmod 777 /code
 
+/***************Copy Files*******************
+1- bootstrap.py
+2- config.json
+3- sendpmt.exe
+4- Newton.Json.dll
+5- launcher.sh
+
+Note: If you are working with Pi3 or Zero. you may consider timing
+      sleep for the while loop (launcher.sh). If this was a final prototype
+      The launcher.sh needs to be enhanced to support parameters (stop, start, sleep etc).
 /*************Autostart******************
 sudo vi /home/pi/.config/lxsession/LXDE-pi/autostart
 at the end of the line add:
